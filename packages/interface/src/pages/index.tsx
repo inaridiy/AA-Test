@@ -1,7 +1,14 @@
+import { ConnectButton } from "@rainbow-me/rainbowkit";
+
+import { Header } from "@/components/Layouts/Header";
+import { HomeLayout } from "@/components/Layouts/HomeLayout";
+
 export default function Home() {
   return (
-    <div>
-      <button className="btn">Click</button>
-    </div>
+    <HomeLayout>
+      <Header title="Accounts">
+        <ConnectButton />
+      </Header>
+    </HomeLayout>
   );
 }
