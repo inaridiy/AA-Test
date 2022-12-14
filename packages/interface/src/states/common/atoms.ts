@@ -2,5 +2,5 @@ import { atom } from "recoil";
 
 export const ThemeState = atom<string>({
   key: "ThemeState",
-  default: "lofi",
+  default: "light",
 });

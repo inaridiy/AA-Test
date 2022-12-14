@@ -1,5 +1,4 @@
-import { ConnectButton } from "@rainbow-me/rainbowkit";
-
+import { ConnectButton } from "@/components/ConnectButton";
 import { Header } from "@/components/Layouts/Header";
 import { HomeLayout } from "@/components/Layouts/HomeLayout";
 
