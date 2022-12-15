@@ -81,12 +81,14 @@ export const ConnectButton = () => {
                   <button
                     onClick={openAccountModal}
                     type="button"
-                    className="btn btn-outline px-2 sm:px-4"
+                    className="btn btn-outline"
                   >
                     {account.displayName}
-                    {account.displayBalance
-                      ? ` (${account.displayBalance})`
-                      : ""}
+                    <span className="hidden sm:inline">
+                      {account.displayBalance
+                        ? ` (${account.displayBalance})`
+                        : ""}
+                    </span>
                   </button>
                 </div>
               );
